@@ -1,5 +1,6 @@
 import React from "react";
 import Moon from './../../assets/icon-moon.svg'
+import './../header/_header.scss';
 
 const Header = () => {
   return (

@@ -1,0 +1,17 @@
+@import "./../../App.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    h4 {
+        letter-spacing: 2.5px;
+    }
+    img {
+        height: 20px;
+        margin-left: 16px;
+    }
+  }
+}
