@@ -4,7 +4,7 @@ import './../header/_header.scss';
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="header-container">
       <h1>
         devfinder
       </h1>

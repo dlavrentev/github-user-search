@@ -1,9 +1,10 @@
 @import "./../../App.scss";
 
-.container {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 36px;
   div {
     display: flex;
     h4 {
