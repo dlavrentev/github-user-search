@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "./../../../assets/profile.jpeg";
-
 import Location from "./../../../assets/icon-location.svg";
 import Website from "./../../../assets/icon-website.svg";
 import Twitter from "./../../../assets/icon-twitter.svg";
 import Company from "./../../../assets/icon-company.svg";
 
+import './../../cards/info/_info.scss'
+
 const Info = () => {
   return (
     <div className="info-container">
       <header>
-        <img src={Image} alt="Profile" />
+        <img src={Image} className="profile-img" alt="Profile" />
         <div>
           <h3>THe Octocat</h3>
           <h4>@octocat</h4>
@@ -25,19 +26,19 @@ const Info = () => {
         <div>REPOS</div>
         <div>
           <div>
-            <img src="" alt="" />
+            <img src={Location} alt="Location" />
             <h4>San Francisco</h4>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={Website} alt="Website" />
             <h4>San Francisco</h4>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={Twitter} alt="Twitter" />
             <h4>San Francisco</h4>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={Company} alt="Company" />
             <h4>San Francisco</h4>
           </div>
         </div>

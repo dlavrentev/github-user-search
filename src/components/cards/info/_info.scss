@@ -1,2 +1,12 @@
 @import './../../../App.scss';
 
+.info-container {
+    max-width: 327px;
+    header {
+        img {
+            width: 70px;
+            border-radius: 50%;
+            
+        }
+    }
+}
