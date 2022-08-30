@@ -18,47 +18,12 @@ $colorDarkBlueD: #1e2a47;
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-// Typography
-
-h1 {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 38px;
-}
-
-h2 {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 33px;
-}
-
-h3 {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-h4 {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
-}
-
 // App.scss
 
 body {
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 25px;
   background-color: $colorOffWhite;
 }
@@ -74,14 +39,50 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
-  }
-  
-  ::-webkit-scrollbar {
-    display: none;
-  } 
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+// Typography
+
+h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.73rem;
+  line-height: 38px;
+}
+
+h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.47rem;
+  line-height: 33px;
+}
+
+h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.07rem;
+  line-height: 24px;
+}
+
+h4 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 19px;
+}
 
 .App {
-    margin: 31px 24px 0px 24px;
-    
+  max-width: 327px;
+  margin: 0 auto;
+  margin-top: 31px;
 }
