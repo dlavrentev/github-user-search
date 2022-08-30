@@ -1,12 +1,16 @@
-@import './../../../App.scss';
+@import "./../../../App.scss";
 
 .info-container {
-    max-width: 327px;
-    header {
-        img {
-            width: 70px;
-            border-radius: 50%;
-            
-        }
+  max-width: 327px;
+  margin-top: 16px;
+  background-color: $colorWhite;
+  border-radius: 15px;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  padding: 32px 24px 48px 24px;
+  header {
+    img {
+      width: 70px;
+      border-radius: 50%;
     }
+  }
 }
