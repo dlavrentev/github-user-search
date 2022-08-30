@@ -1,36 +1,38 @@
 @import "./../../../App.scss";
 
 .info-container {
-  max-width: 327px;
+  max-width: 100%;
   margin-top: 16px;
   background-color: $colorWhite;
   border-radius: 15px;
   box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
   padding: 32px 24px 32px 24px;
 
+ 
+
   .info-header {
     display: flex;
+    align-items: center;
     img {
       width: 70px;
       border-radius: 50%;
       margin-right: 19px;
     }
     div {
+      display: flex;
       flex-direction: column;
       h3 {
         font-weight: 700;
-        line-height: 24px;
         color: $colorDarkBlue;
       }
       h4:nth-child(2) {
-        line-height: 19px;
         color: $colorBlue;
       }
       h4:nth-child(3) {
-        line-height: 19px;
         color: $colorGray;
       }
     }
+
   }
 
   .info-body {
@@ -66,17 +68,19 @@
     }
   }
 
+
+
   .info-footer {
     div {
-        display: flex;
-        margin-bottom: 16px;
-        align-items: center;
-        h4 {
-            margin-left: 13px;
-        }
-        &:nth-child(1) h4 {
-            margin-left: 18px;
-        }
+      display: flex;
+      margin-bottom: 16px;
+      align-items: center;
+      h4 {
+        margin-left: 13px;
+      }
+      &:nth-child(1) h4 {
+        margin-left: 18px;
+      }
     }
   }
 }

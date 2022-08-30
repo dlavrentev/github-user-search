@@ -6,6 +6,8 @@ import Twitter from "./../../../assets/icon-twitter.svg";
 import Company from "./../../../assets/icon-company.svg";
 
 import "./../../cards/info/_info.scss";
+import "./../../cards/info/_info-tablet.scss";
+
 
 const Info = () => {
   return (
@@ -29,11 +31,11 @@ const Info = () => {
           <h3>8</h3>
           </div>
           <div>
-          <p>Repos</p>
+          <p>Followers</p>
           <h3>3938</h3>
           </div>
           <div>
-          <p>Repos</p>
+          <p>Following</p>
           <h3>9</h3>
           </div>
         </div>
