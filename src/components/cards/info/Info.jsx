@@ -8,7 +8,6 @@ import Company from "./../../../assets/icon-company.svg";
 import "./../../cards/info/_info.scss";
 import "./../../cards/info/_info-tablet.scss";
 
-
 const Info = () => {
   return (
     <div className="info-container">
@@ -27,16 +26,16 @@ const Info = () => {
         </h4>
         <div className="info-data">
           <div>
-          <p>Repos</p>
-          <h3>8</h3>
+            <p>Repos</p>
+            <h3>8</h3>
           </div>
           <div>
-          <p>Followers</p>
-          <h3>3938</h3>
+            <p>Followers</p>
+            <h3>3938</h3>
           </div>
           <div>
-          <p>Following</p>
-          <h3>9</h3>
+            <p>Following</p>
+            <h3>9</h3>
           </div>
         </div>
         <div className="info-footer">
