@@ -4,16 +4,11 @@
 
 @media (min-width: 600px) {
   .info-container {
-    max-width: 100%;
     margin-top: 24px;
-    background-color: $colorWhite;
-    border-radius: 15px;
-    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-    padding: 40px;
+
+    padding: 40px 40px 30px 40px;
 
     .info-header {
-      display: flex;
-      align-items: center;
       img {
         width: 117px;
         margin-right: 41px;
@@ -35,16 +30,12 @@
     .info-body {
       h4:first-child {
         line-height: 25px;
-        color: $colorLightBlue;
-        margin-top: 33px;
+
         font-size: 1rem;
       }
       .info-data {
-        display: flex;
         justify-content: flex-start;
-        background-color: $colorOffWhite;
-        border-radius: 10px;
-        align-items: center;
+
         margin-top: 31px;
         margin-bottom: 31px;
         padding: 18px 32px;
@@ -57,17 +48,11 @@
         p {
           font-size: 0.87rem;
           line-height: 16px;
-          text-align: center;
-          color: #4b6a9b;
+
           margin-bottom: 8px;
         }
         h3 {
-          font-weight: 700;
-          line-height: 24px;
-          text-align: center;
-          text-transform: uppercase;
           font-size: 1.47rem;
-          color: #2b3442;
         }
       }
     }
