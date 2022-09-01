@@ -94,3 +94,11 @@ h4 {
         margin-top: 140px;
       }
 }
+
+@media (min-width: 980px) {
+  .App {
+      max-width: 730px;
+      margin: 0 auto;
+      margin-top: 144px;
+    }
+}
