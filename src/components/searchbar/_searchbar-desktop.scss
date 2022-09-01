@@ -1,0 +1,22 @@
+@import "./../../App.scss";
+
+@media (min-width: 600px) {
+  .searchbar-container {
+    max-height: 69px;
+    padding: 10px 10px 10px 32px;
+    img {
+      width: 24px;
+      margin-right: 24px;
+    }
+    button {
+      min-width: 106px;
+      height: 50px;
+      font-size: 1.07rem;
+      line-height: 24px;
+    }
+
+    input::placeholder {
+      font-size: 1.2rem;
+    }
+  }
+}
